@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editText1" android:capitalize="words" android:inputType="textCapWords">
+        <requestFocus></requestFocus>
+    </EditText>
+    <com.vrs.pulse7.splashscreen.Transperant
+	    android:id="@+id/popup_window"
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="left"
+	    android:padding="30px">
+		
+	    <TextView
+		android:id="@+id/textView1"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+		android:textColor="#000000"
+	    	android:textSize="20dp"
+	    	android:paddingTop="20dp"
+	    	android:paddingBottom="20dp"
+	    	android:text="Left to Right Sliding" />
+ 
+	    <CheckBox 
+	    	android:id="@+id/checkBox1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="17dp"
+		android:text="Jelly Bean" />
+		
+	    <CheckBox 
+	    	android:id="@+id/checkBox2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="17dp"
+		android:text="Ice Cream Sandwich" />
+		
+	    <CheckBox 
+	    	android:id="@+id/checkBox3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="17dp"
+		android:text="HoneyComb" />
+ 
+	</com.vrs.pulse7.splashscreen.Transperant>
+	<Button	
+	    android:id="@+id/handle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Handle"/>
+ 
+</LinearLayout>
