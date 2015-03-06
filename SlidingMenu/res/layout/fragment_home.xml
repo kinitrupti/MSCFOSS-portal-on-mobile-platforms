@@ -1,0 +1,781 @@
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+     android:layout_width="1125dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+    android:background="@drawable/ic_launcher"
+    android:stretchColumns="*" 
+    android:orientation="vertical"
+        
+    >
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textSize="20sp"
+        android:text="===M.Sc(CS-FOSS) Online Programme"
+        android:textColor="#000080"
+        />
+ 
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" 
+        android:background="#C8C8C8"
+        android:layout_margin="1dp">
+ 
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="Time Table"
+            android:textSize="18dp"
+            android:textStyle="bold" 
+            android:layout_margin="1dp">
+        </TextView>
+            </TableRow>
+        <TableRow
+             android:id="@+id/tableRow1"
+          android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+        android:gravity="center_horizontal" >
+          <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text=""
+            android:layout_marginTop="20dp"
+            android:textSize="24dp"
+            android:textStyle="bold" >
+        </TextView>
+    </TableRow>
+ 
+    <TableRow
+      
+        android:layout_margin="1dp">
+ 
+     
+ 
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text="Saturday"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="4" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Sunday"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="6" >
+        </TextView>
+ 
+    </TableRow>
+ 
+    
+ <TableRow
+      
+        android:layout_margin="1dp">
+ 
+     
+ 
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text="Sem I"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Sem II"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Sem III"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Sem IV"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Sem I"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Sem II"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Sem III"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Sem IV"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+    </TableRow>
+    
+  <TableRow
+      
+        android:layout_margin="1dp">
+ 
+     
+ 
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text="DIF7102"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7203"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7305"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF004"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7101"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7205"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7305"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="---"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+    </TableRow>
+    
+  <TableRow
+      
+        android:layout_margin="1dp">
+ 
+     
+ 
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text="DIF7102"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7203"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7301"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF004"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7101"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7205"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7301"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="---"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+    </TableRow>
+    
+  <TableRow
+      
+        android:layout_margin="1dp">
+ 
+     
+ 
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text="DIF7104"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7202"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7304"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="---"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7104"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7202"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7304"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="---"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+    </TableRow>
+    
+  <TableRow
+      
+        android:layout_margin="1dp">
+ 
+     
+ 
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text="Lunch"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Lunch"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Lunch"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Lunch"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Lunch"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Lunch"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Lunch"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Lunch"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+    </TableRow>
+    
+  <TableRow
+      
+        android:layout_margin="1dp">
+ 
+     
+ 
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text="DIF7105"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7201"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7302"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="---"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7105"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7201"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7302"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF001"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+    </TableRow>
+    
+  <TableRow
+      
+        android:layout_margin="1dp">
+ 
+     
+ 
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text="DIF7103"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7204"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7303"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="---"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp"
+            android:layout_span="0"  >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7103"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7203"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="DIF7303"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="---"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:textSize="20dp"
+            android:background="#C8C8C8"
+            android:layout_margin="1dp" 
+            android:layout_span="0" >
+        </TextView>
+ 
+    </TableRow>
+    
+  
+</TableLayout>
+
+

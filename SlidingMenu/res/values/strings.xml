@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="app_name">MSc FOSS Portal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Title">Website Title</string>
+     <string name="hello">hello</string>
+    <string name="Description">Website Description</string>
+    <string name="Logo">Website Logo</string>
+    <string name="auto_complete">AutoComplete</string>
+    <string name="multi_auto_complete">Multi AutoComplete</string>
+    <string name="Table">Table</string>
+    <string name="Links">Links</string>
+    <string name="name1">&lt;a href="http://www.annauniv.edu/">Anna University Chennai &lt;/a></string>
+    <string name="name2">&lt;a href="http://www.au-kbc.org/">Coordinating Centre : AU-KBC Research Centre &lt;/a></string>
+   
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Faculty</item>
+        <item >Email</item>
+        <item >My Profile</item>
+        <item >Studyroom</item>
+        <item >Latest Updates</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+<string-array name="cities">
+        <item>aruns@au-kbc.org</item>
+        <item>sidhpurwala.huzaifa@gmail.com</item>
+        <item>karunakarg@gmail.com</item>
+        <item>mohamed.imran@au-kbc.org</item>
+        <item>mushab@au-kbc.org</item>
+        <item>prabakaran@au-kbc.org</item>
+        <item>pradeeptob@gmail.com</item>
+        <item>rabbonir@googlemail.com</item>
+        <item>rega@au-kbc.org</item>
+        <item>sangeethasatheesan85@au-kbc.org</item>
+        <item>sksaini@au-kbc.org</item>
+        <item>kumar.me@gmail.com</item>
+        <item>arulrajan512@gmail.com</item>
+        <item>bhvyrddy@rediffmail.com</item>
+        <item>msmohan24@gmail.com</item>
+        
+       
+    </string-array>
+    <string-array name="emails">
+<item>"DIF004 -- Python Programming Mr. Saurabh Banga"</item>
+    		<item>"DIF001-Virtualization and Cloud Computing by Mr. Mohamed Imran"</item>
+    		<item>"DIF231 -- Application Security by Mr. Huzaifa Sidhpurwala"</item>
+    		<item>"DIF232 -- Web Development Mr. Senthil Anand"</item>
+    		<item>"DIF233 -- Application Development using PHP Mr. Sri Ramadoss M"</item>	
+    		<item>"DIF235 -- Collaborative Development with Version Control Mr. Varadarajan Sridharan"</item>
+    		<item>"DIF121 - Introduction to Java Technology Mr. Karunakar G"</item>
+    		<item>"DIF122 - Software Development Practices Mr. Sri Ramadoss M"</item>
+    		<item>"DIF123 - RDBMS Basics Mr. Senthil Anand"</item>
+    		<item>"DIF124 - Computer Networks and the Internet Mr. Mohamed Imran"</item>
+    		<item>"DIF125 - Business Communication in English Dr. Savithri Swaminathan"</item>
+    		<item>"DIF 111 - Introduction to Computing by Mr. Dr Srinivasan S"</item>
+    		<item>"DIF 112 - Philosophy and Practice of FOSS by Prof. Dr Srinivasan S"</item>
+    		<item>"DIF 113 - Basics of the GNU/Linux Operating system and FOSS tools by Mr. Sanjeev Kumar Saini"</item>
+    		<item>"DIF 114 - Object Oriented Programming with Data Structures by Mr. Sanjeev Kumar Saini"</item>
+    		<item>"DIF 115 - HTML, CSS and Javascript by Mr. Ramadoss S"</item>
+       </string-array>
+
+</resources>
